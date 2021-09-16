@@ -7,20 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <title>To-do</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="header-item">
-        <h1>TO-DO</h1>
-        <button class="btn-add-task" onclick="showAddTasks()">Add Tarefa</button>
+        <h1> TO-DO Lista de Tarefas</h1>
+        <button class="btn-add-task" onclick="showAddTasks()">Nova Tarefa</button>
         </button>
       </div>
     </header>
     <form id="todoList">
-      <h3>Nome da Tarefa</h3>
-      <input type="text" id="task" />
+      <h3>Nome da Tarefa:</h3>
+      <input type="text" id="task"  placeholder="Digite aqui" />
       <button type="submit">Nova Tarefa</button>
       <p class="alert"></p>
     </form>
