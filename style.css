@@ -1,0 +1,73 @@
+*{
+    font-family: 'Karla', sans-serif;
+}
+/*Header Fonte*/
+h1{
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+/*Header*/
+.header-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+    border-radius: 3px;
+}
+
+#todoList{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    background-color:rgb(56, 55, 55) ;
+}
+#task{
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+.btn-add-task{
+    display: flex;
+    justify-content: left;
+}
+
+.checkbox{
+    margin-top: 33px;
+}
+/*Fonte task*/
+h3{
+    padding: 10px;
+    color: white;
+}
+/*Overline*/
+.overline-decoration{
+    text-decoration-line: line-through;
+}
+
+/*Iten task*/
+.list-adjust{
+    display: flex;
+    justify-content:right;
+    background:blueviolet;
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: 4px 4px 12px 3px #000000; 
+    box-shadow: 4px 4px 12px 3px #000000;
+}
+
+
+button{
+    margin-top: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    background-color: rgb(49, 48, 48);
+    width:50px;
+    height:35px;
+    font-weight: bold;
+    
+}
+
+.content{
+    margin-top: -10px;
+}
