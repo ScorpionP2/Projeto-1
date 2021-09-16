@@ -85,7 +85,7 @@ todoList.addEventListener("submit", (event) => {
     }, 100);
   }
 });
-
+//Alterar ")"
 //Chamar a função ao carregar a página
 
 window.onload = function () {
