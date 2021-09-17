@@ -19,12 +19,12 @@ function showTasks(clearTasks = false) {
     `
       <input type="checkbox" class="checkbox">
       <h3>${task}</h3>
-      <button type="button">X</button>
+      <button type="button" class="button-style">X</button>
     `
     //Colocar a line-through quando clicar no check-box
     taskDiv.getElementsByClassName("checkbox")[0].onclick= ()=>{
       const checkboxValue = taskDiv.getElementsByClassName("checkbox")[0].checked
-      console.log(checkboxValue)
+      //console.log(checkboxValue)
       const taskText = taskDiv.getElementsByTagName("h3")[0]
       if (checkboxValue) {
         taskText.classList.add("overline-decoration")
