@@ -74,7 +74,7 @@ todoList.addEventListener("submit", (event) => {
     //-Mostrar mensagem de sucesso
     alertMessage.innerHTML = "Tarefa Adicionada com Sucesso";
     alertMessage.style = "display:block; color: green";
-    // Remover essa mensagem e resetar os dados do formulario
+    // Remover mensagem e resetar os dados do formulario
     setTimeout(() => {
       //Retirar o conteudo do alert
       alertMessage.innerHTML = "";
